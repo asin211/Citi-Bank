@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BankingApp.Account">
+    <Position X="4.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAEBggAQQCEAAAAAAAAAQAAIQAAAAI=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankingApp.EverydayAccount">
+    <Position X="1.75" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAAAAAAQQAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankingApp.InvestmentAccount">
+    <Position X="4.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAAAAAAQQAEAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankingApp.OmniAccount">
+    <Position X="7.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAABACAAAAAAAAAAQQAEAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankingApp.Customer">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <Members>
+      <Field Name="customer_id" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAEAAAAIAQAACAEABCgAAASIAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Accounts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BankingApp.Controller">
+    <Position X="10.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAQAAAABABAAAAAAAACAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="customersList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,17 @@
+# Visual Studio files
+*.user
+*.userprefs
+*.suo
+*.cache
+*.vspscc
+_ReSharper.*
+*.dbmdl
+*.dbproj.schemaview
+*.sdf
+*.opensdf
+
+# NuGet
+packages/
+*.nupkg
+*.pdb
+*.dll
