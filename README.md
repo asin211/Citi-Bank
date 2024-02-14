@@ -15,19 +15,25 @@ Customers are identified by a Customer Number, Name, and Contact Details. Bank s
    - No Interest
    - No Overdraft
    - No Transaction Fees
+   - Deposit Limit of $10000/transaction apply to all account
 
 2. **Investment Account:**
-   - Variable Interest Rates Applied to All Funds
+   - Variable Interest Rates Applied to All Funds - 4%
    - No Overdraft Allowed
-   - Fee for Failed Transactions
+   - Fee for Failed Transactions - $10 (Staff 50% discount on fees)
    - Ability to calculate and add interest to the balance
+   -  Deposit Limit of $10000/transaction apply to all account
 
 3. **Omni Account:**
-   - Interest Rates Applied Only on Balances Over $1000
-   - Specified Overdraft Permitted
-   - Fee Incurred for Failed Transactions
+   - Interest Rates Applied Only on Balances Over $1000 - 4%
+   - Specified Overdraft Permitted - $100
+   - Fee Incurred for Failed Transactions - $10 (Staff 50% discount on fees)
    - Ability to calculate and add interest to the balance
+   -  Deposit Limit of $10000/transaction apply to all account
 
+4. **Transfers Between own Account**
+   - No Overdraft Permitted while transfer between own accounts. Only available balance can be transfer between own accounts
+   - No Fee Incurred for Failed Transactions while transferring to own accounts
 
 ## Instructions
 
@@ -46,3 +52,6 @@ Customers are identified by a Customer Number, Name, and Contact Details. Bank s
 ### Running Unit Tests
 1. Open the unit test project in Visual Studio.
 2. Run the tests.
+
+### UML Class Diagram
+![UML Class Diagram](Banking_App_Model_Diagram.PNG)
